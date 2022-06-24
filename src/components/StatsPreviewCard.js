@@ -1,5 +1,5 @@
 import classes from './StatsPreviewCard.module.css';
-// import headerDesktop from '../images/image-header-desktop.jpg';
+import header from '../images/image-header-desktop.jpg';
 
 import Card from './Card';
 import NumberStats from './NumberStats';
@@ -22,8 +22,11 @@ const StatsPreviewCard = () => {
         </div>
       </div>
 
-      <div className={classes.right}>
+      {/* <div className={classes.right}>
         <div className={classes.right__overlay}></div>
+      </div> */}
+      <div className={classes.right}>
+        <img src={header} alt="header" />
       </div>
     </Card>
   )
