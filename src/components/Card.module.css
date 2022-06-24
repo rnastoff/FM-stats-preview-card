@@ -1,0 +1,17 @@
+.card {
+  background: hsl(244, 38%, 16%);
+  border-radius: 0.5rem;
+  display: flex;
+  height: 28rem;
+  width: 69.4rem;
+  overflow: hidden;
+}
+
+@media (max-width: 1130px) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 49rem;
+    width: 20.5rem;
+  }
+}
